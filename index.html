@@ -2,12 +2,17 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>شريف قريش | مصمم جرافيك محترف</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Touch Icons -->
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#4361ee">
 </head>
 <body>
     <!-- شريط التنقل -->
@@ -18,12 +23,12 @@
                 <span>شريف</span>قريش
             </a>
             <ul class="nav-links">
-                <li><a href="#home" class="active"><i class="fas fa-home"></i> الرئيسية</a></li>
-                <li><a href="#about"><i class="fas fa-user"></i> عنّي</a></li>
-                <li><a href="#services"><i class="fas fa-concierge-bell"></i> خدماتي</a></li>
-                <li><a href="#contact"><i class="fas fa-phone"></i> اتصل بي</a></li>
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> <span class="nav-text">الرئيسية</span></a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> <span class="nav-text">عنّي</span></a></li>
+                <li><a href="#services"><i class="fas fa-concierge-bell"></i> <span class="nav-text">خدماتي</span></a></li>
+                <li><a href="#contact"><i class="fas fa-phone"></i> <span class="nav-text">اتصل بي</span></a></li>
             </ul>
-            <button class="menu-toggle">
+            <button class="menu-toggle" aria-label="قائمة التنقل">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
@@ -93,8 +98,8 @@
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>مصمم شغوف بالإبداع البصري والأكاديمي</h3>
-                    <p>مصمم جرافيك محترف متخصص في تصميم الهوية البصرية والمواد التسويقية. بالإضافة إلى تصميم العروض التقديمية الاحترافية وتنسيق الأبحاث الجامعية. أساعد الطلاب والمحترفين في التعبير عن أفكارهم بشكل إبداعي ومميز من خلال تصميمات عالية الجودة تلبي احتياجاتهم الأكاديمية والمهنية.</p>
+                    <h3>مصمم شغوف بالإبداع البصري والأكاديمي والتقني</h3>
+                    <p>مصمم جرافيك ومواقع ويب محترف متخصص في تصميم الهوية البصرية والمواد التسويقية وتصميم المواقع الإلكترونية. بالإضافة إلى تصميم العروض التقديمية الاحترافية وتنسيق الأبحاث الجامعية. أساعد الأفراد والشركات في التعبير عن هويتهم بشكل إبداعي ومميز من خلال تصميمات عالية الجودة تلبي احتياجاتهم الأكاديمية والمهنية والتجارية.</p>
                     <div class="skills">
                         <div class="skill-item">
                             <div class="skill-header">
@@ -106,14 +111,14 @@
                         <div class="skill-item">
                             <div class="skill-header">
                                 <span class="skill-name">تصميم كروت الأعمال</span>
-                                <span class="skill-percent">95%</span>
+                                <span class="skill-percent">99%</span>
                             </div>
                             <div class="skill-bar"><div class="skill-level"></div></div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-header">
                                 <span class="skill-name">تصميم السيرة الذاتية (CV)</span>
-                                <span class="skill-percent">93%</span>
+                                <span class="skill-percent">85%</span>
                             </div>
                             <div class="skill-bar"><div class="skill-level"></div></div>
                         </div>
@@ -127,7 +132,14 @@
                         <div class="skill-item">
                             <div class="skill-header">
                                 <span class="skill-name">كتابة وتنسيق أبحاث Word</span>
-                                <span class="skill-percent">94%</span>
+                                <span class="skill-percent">97%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-level"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">تصميم مواقع الويب</span>
+                                <span class="skill-percent">90%</span>
                             </div>
                             <div class="skill-bar"><div class="skill-level"></div></div>
                         </div>
@@ -139,7 +151,7 @@
                             <div class="stat-icon">
                                 <i class="fas fa-smile"></i>
                             </div>
-                            <div class="stat-number" data-count="300">0</div>
+                            <div class="stat-number" data-count="250">0</div>
                             <div class="stat-label">عميل سعيد</div>
                         </div>
                         <div class="stat-card">
@@ -158,10 +170,10 @@
                         </div>
                         <div class="stat-card">
                             <div class="stat-icon">
-                                <i class="fas fa-clock"></i>
+                                <i class="fas fa-code"></i>
                             </div>
-                            <div class="stat-number" data-count="96">0</div>
-                            <div class="stat-label">تسليم سريع</div>
+                            <div class="stat-number" data-count="4">0</div>
+                            <div class="stat-label">موقع مصمم</div>
                         </div>
                     </div>
                 </div>
@@ -197,7 +209,7 @@
                     </ul>
                     <div class="service-actions">
                         <a href="logo-design.html" class="btn btn-secondary btn-block">
-                            <i class="fas fa-images"></i> شاهد التصميمات 
+                            <i class="fas fa-images"></i> شاهد التصاميم  
                         </a>
                         <a href="https://wa.me/201003041351?text=مرحباً، أود طلب تصميم لوجو" 
                            target="_blank" class="btn btn-primary btn-block whatsapp-btn">
@@ -212,7 +224,6 @@
                         <div class="service-icon">
                             <i class="fas fa-id-card"></i>
                         </div>
-                        <div class="service-badge">الأكثر طلباً</div>
                     </div>
                     <h3>كروت شخصية</h3>
                     <p>تصميم كروت أعمال احترافية تعزز صورتك المهنية وتجعل انطباعك الأول لا يُنسى</p>
@@ -224,7 +235,7 @@
                     </ul>
                     <div class="service-actions">
                         <a href="business-cards.html" class="btn btn-secondary btn-block">
-                            <i class="fas fa-images"></i> شاهد التصميمات 
+                            <i class="fas fa-images"></i> شاهد التصاميم 
                         </a>
                         <a href="https://wa.me/201003041351?text=مرحباً، أود طلب تصميم كروت شخصية" 
                            target="_blank" class="btn btn-primary btn-block whatsapp-btn">
@@ -250,7 +261,7 @@
                     </ul>
                     <div class="service-actions">
                         <a href="cv-design.html" class="btn btn-secondary btn-block">
-                            <i class="fas fa-images"></i> شاهد التصميمات 
+                            <i class="fas fa-images"></i> شاهد التصاميم 
                         </a>
                         <a href="https://wa.me/201003041351?text=مرحباً، أود طلب تصميم CV" 
                            target="_blank" class="btn btn-primary btn-block whatsapp-btn">
@@ -276,7 +287,7 @@
                     </ul>
                     <div class="service-actions">
                         <a href="wedding-invitations.html" class="btn btn-secondary btn-block">
-                            <i class="fas fa-images"></i> شاهد التصميمات 
+                            <i class="fas fa-images"></i> شاهد التصاميم 
                         </a>
                         <a href="https://wa.me/201003041351?text=مرحباً، أود طلب تصميم دعوات فرح" 
                            target="_blank" class="btn btn-primary btn-block whatsapp-btn">
@@ -302,7 +313,7 @@
                     </ul>
                     <div class="service-actions">
                         <a href="qr-design.html" class="btn btn-secondary btn-block">
-                            <i class="fas fa-images"></i> شاهد التصميمات 
+                            <i class="fas fa-images"></i> شاهد التصاميم 
                         </a>
                         <a href="https://wa.me/201003041351?text=مرحباً، أود طلب تصميم QR Code" 
                            target="_blank" class="btn btn-primary btn-block whatsapp-btn">
@@ -326,7 +337,6 @@
                         <li><i class="fas fa-check"></i> أنيميشن وتأثيرات</li>
                         <li><i class="fas fa-check"></i> تنظيم المحتوى</li>
                         <li><i class="fas fa-check"></i> قوالب متنوعة</li>
-                        <li><i class="fas fa-check"></i> تسليم العرض خلال ساعات </li>
                     </ul>
                     <div class="service-actions">
                         <a href="https://wa.me/201003041351?text=مرحباً، أود طلب تصميم عرض PowerPoint" 
@@ -350,10 +360,34 @@
                         <li><i class="fas fa-check"></i> مراجع وصفحات</li>
                         <li><i class="fas fa-check"></i> فهرس وجداول</li>
                         <li><i class="fas fa-check"></i> تدقيق لغوي</li>
-                        <li><i class="fas fa-check"></i> تسليم البحث خلال يوم على الاقل</li>
                     </ul>
                     <div class="service-actions">
                         <a href="https://wa.me/201003041351?text=مرحباً، أود طلب كتابة وتنسيق بحث Word" 
+                           target="_blank" class="btn btn-primary whatsapp-btn btn-block">
+                            <i class="fab fa-whatsapp"></i> اطلب الآن
+                        </a>
+                    </div>
+                </div>
+
+                <!-- خدمة تصميم المواقع -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="service-badge">جديد</div>
+                    </div>
+                    <h3>تصميم مواقع الويب</h3>
+                    <p>تصميم مواقع إلكترونية احترافية متجاوبة تعمل على جميع الأجهزة والشاشات</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> تصميم متجاوب</li>
+                        <li><i class="fas fa-check"></i> سرعة عالية</li>
+                        <li><i class="fas fa-check"></i> تحسين لمحركات البحث</li>
+                        <li><i class="fas fa-check"></i> سهولة الاستخدام</li>
+                        <li><i class="fas fa-check"></i> اضافة وتعديل الموقع لمدة اسبوع بعد الاستخدام</li>
+                    </ul>
+                    <div class="service-actions">
+                        <a href="https://wa.me/201003041351?text=مرحباً، أود طلب تصميم موقع ويب" 
                            target="_blank" class="btn btn-primary whatsapp-btn btn-block">
                             <i class="fab fa-whatsapp"></i> اطلب الآن
                         </a>
@@ -364,123 +398,136 @@
     </section>
 
     <!-- قسم الاتصال -->
-<section id="contact" class="section contact">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">تواصل <span>معي</span></h2>
-            <p class="section-subtitle">هل لديك مشروع في ذهنك؟ دعنا نناقشه معاً</p>
-        </div>
-        <div class="contact-content">
-            <div class="contact-info">
-                <div class="contact-card">
-                    <div class="contact-icon">
-                        <i class="fas fa-phone-alt"></i>
-                    </div>
-                    <h4>الهاتف</h4>
-                    <p>01003041351</p>
-                    <a href="tel:01003041351" class="contact-link">اتصل الآن</a>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <h4>البريد الإلكتروني</h4>
-                    <p>shreifquraish@gmail.com</p>
-                    <a href="mailto:shreifquraish@gmail.com" class="contact-link">أرسل بريداً</a>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">
-                        <i class="fab fa-whatsapp"></i>
-                    </div>
-                    <h4>واتساب</h4>
-                    <p>مباشر وسريع</p>
-                    <a href="https://wa.me/201003041351" target="_blank" class="contact-link">راسلني</a>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">
-                        <i class="fab fa-facebook"></i>
-                    </div>
-                    <h4>فيسبوك</h4>
-                    <p>تابعني على فيسبوك</p>
-                    <a href="https://www.facebook.com/ShreifEngineer" target="_blank" class="contact-link">زيارة الصفحة</a>
-                </div>
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل <span>معي</span></h2>
+                <p class="section-subtitle">هل لديك مشروع في ذهنك؟ دعنا نناقشه معاً عبر أي وسيلة تفضلها</p>
             </div>
-        </div>
-    </div>
-</section>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <!-- الهاتف -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h4>الهاتف</h4>
+                        <p>اتصل بي مباشرة للاستفسار عن أي خدمة</p>
+                        <a href="tel:01003041351" class="contact-link">اتصل الآن</a>
+                    </div>
+                    
+                    <!-- الإيميل -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>البريد الإلكتروني</h4>
+                        <p>أرسل تفاصيل مشروعك لأراجعه بدقة</p>
+                        <a href="mailto:shreifquraish@gmail.com" class="contact-link">أرسل بريداً</a>
+                    </div>
+                    
+                    <!-- واتساب -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h4>واتساب</h4>
+                        <p>راسلني مباشرة لأي طلب أو استفسار</p>
+                        <a href="https://wa.me/201003041351" target="_blank" class="contact-link">راسلني</a>
+                    </div>
+                    
+                    <!-- فيسبوك -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <h4>فيسبوك</h4>
+                        <p>تابع أعمالي الجديدة وآخر التصميمات</p>
+                        <a href="https://facebook.com/shreif-Engineer" target="_blank" class="contact-link">زيارة الصفحة</a>
+                    </div>
+                </div>
+    </section>
 
     <!-- الفوتر -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-col">
-                <a href="index.html" class="footer-logo">
-                    <i class="fas fa-palette"></i>
-                    <span>شريف</span>قريش
-                </a>
-                <p class="footer-description">مصمم جرافيك محترف متخصص في تحويل الأفكار إلى تصاميم مرئية مميزة تعبر عن هوية عملائي.</p>
-                <div class="footer-social">
-                    <!-- فيسبوك - ضع رابطك هنا -->
-                    <a href="https://www.facebook.com/ShreifEngineer" target="_blank" class="social-icon" title="تابعني على فيسبوك">
-                        <i class="fab fa-facebook"></i>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="index.html" class="footer-logo">
+                        <i class="fas fa-palette"></i>
+                        <span>شريف</span>قريش
                     </a>
-                    
-                    <!-- لينكد إن - رابطك الجديد -->
-                    <a href="https://www.linkedin.com/in/shreif-quraish-60618837a?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
-                       target="_blank" class="social-icon" title="تابعني على لينكد إن">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    
-                    <!-- Behance - رابطك الجديد -->
-                    <a href="https://www.behance.net/2d9c19bf" 
-                       target="_blank" class="social-icon" title="شاهد أعمالي على Behance">
-                        <i class="fab fa-behance"></i>
-                    </a>
-                    
-                    <!-- واتساب - رابطك -->
-                    <a href="https://wa.me/201003041351" 
-                       target="_blank" class="social-icon" title="راسلني على واتساب">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    
-                    <!-- TAP - رابط التطبيق -->
-                    <a href="https://link.gettap.co/shreif_engineer" 
-                       target="_blank" class="social-icon" title="تابعني على TAP">
-                        <i class="fas fa-mobile-alt"></i>
-                    </a>
+                    <p class="footer-description">مصمم جرافيك محترف متخصص في تحويل الأفكار إلى تصاميم مرئية مميزة تعبر عن هوية عملائي.</p>
+                    <div class="footer-social">
+                        <!-- فيسبوك - ضع رابطك هنا -->
+                        <a href="https://facebook.com/shreif-Engineer" target="_blank" class="social-icon" title="تابعني على فيسبوك">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        
+                        <!-- لينكد إن - رابطك الجديد -->
+                        <a href="https://www.linkedin.com/in/shreif-quraish-60618837a?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
+                           target="_blank" class="social-icon" title="تابعني على لينكد إن">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        
+                        <!-- Behance - رابطك الجديد -->
+                        <a href="https://www.behance.net/2d9c19bf" 
+                           target="_blank" class="social-icon" title="شاهد أعمالي على Behance">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                        
+                        <!-- واتساب - رابطك -->
+                        <a href="https://wa.me/201003041351" 
+                           target="_blank" class="social-icon" title="راسلني على واتساب">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        
+                        <!-- TAP - رابط التطبيق -->
+                        <a href="https://link.gettap.co/shreif_engineer" 
+                           target="_blank" class="social-icon" title="تابعني على TAP">
+                            <i class="fas fa-mobile-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-left"></i> الرئيسية</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-left"></i> عنّي</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-left"></i> خدماتي</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-left"></i> اتصل بي</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>خدماتي</h4>
+                    <ul class="footer-links">
+                        <li><a href="logo-design.html"><i class="fas fa-chevron-left"></i> تصميم اللوجو</a></li>
+                        <li><a href="business-cards.html"><i class="fas fa-chevron-left"></i> كروت شخصية</a></li>
+                        <li><a href="cv-design.html"><i class="fas fa-chevron-left"></i> تصميم CV</a></li>
+                        <li><a href="wedding-invitations.html"><i class="fas fa-chevron-left"></i> دعوات الفرح</a></li>
+                        <li><a href="qr-design.html"><i class="fas fa-chevron-left"></i> تصميم QR</a></li>
+                        <li><a href="javascript:void(0)" onclick="window.location.href='https://wa.me/201003041351?text=مرحباً، أود طلب تصميم عرض PowerPoint'"><i class="fas fa-chevron-left"></i> عروض PowerPoint</a></li>
+                        <li><a href="javascript:void(0)" onclick="window.location.href='https://wa.me/201003041351?text=مرحباً، أود طلب كتابة وتنسيق بحث Word'"><i class="fas fa-chevron-left"></i> أبحاث Word</a></li>
+                        <li><a href="javascript:void(0)" onclick="window.location.href='https://wa.me/201003041351?text=مرحباً، أود طلب تصميم موقع ويب'"><i class="fas fa-chevron-left"></i> تصميم مواقع</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-col">
-                <h4>روابط سريعة</h4>
-                <ul class="footer-links">
-                    <li><a href="#home"><i class="fas fa-chevron-left"></i> الرئيسية</a></li>
-                    <li><a href="#about"><i class="fas fa-chevron-left"></i> عنّي</a></li>
-                    <li><a href="#services"><i class="fas fa-chevron-left"></i> خدماتي</a></li>
-                    <li><a href="#contact"><i class="fas fa-chevron-left"></i> اتصل بي</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>خدماتي</h4>
-                <ul class="footer-links">
-                    <li><a href="logo-design.html"><i class="fas fa-chevron-left"></i> تصميم اللوجو</a></li>
-                    <li><a href="business-cards.html"><i class="fas fa-chevron-left"></i> كروت شخصية</a></li>
-                    <li><a href="cv-design.html"><i class="fas fa-chevron-left"></i> تصميم CV</a></li>
-                    <li><a href="wedding-invitations.html"><i class="fas fa-chevron-left"></i> دعوات الفرح</a></li>
-                    <li><a href="qr-design.html"><i class="fas fa-chevron-left"></i> تصميم QR</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; <span id="current-year">2024</span> شريف قريش. جميع الحقوق محفوظة.</p>
-                <p>تم التصميم بواسطة شريف </p>
+            <div class="footer-bottom">
+                <p>&copy; <span id=</span>  جميع الحقوق محفوظة شريف قريش. 2026.</p>
+                <p>تم التصميم والتطوير بواسطة شريف </p>
             </div>
         </div>
     </footer>
 
     <!-- زر العودة للأعلى -->
-    <button id="back-to-top" class="back-to-top">
+    <button id="back-to-top" class="back-to-top" aria-label="العودة للأعلى">
         <i class="fas fa-arrow-up"></i>
     </button>
+
+    <!-- Touch-friendly WhatsApp Floating Button -->
+    <a href="https://wa.me/201003041351" class="whatsapp-float" target="_blank" aria-label="راسلني على واتساب">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <script src="script.js"></script>
 </body>
