@@ -1314,7 +1314,7 @@ p {
 }
 
 .social-icon:nth-child(6) { /* TAP */
-    background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+    background: #FF8E53;
 }
 
 /* تأثيرات hover */
