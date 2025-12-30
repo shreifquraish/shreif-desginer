@@ -1297,19 +1297,23 @@ p {
     background: #1877F2;
 }
 
-.social-icon:nth-child(2) { /* لينكد إن */
+.social-icon:nth-child(2) { /* انستجرام */
+    background: #E1306C;
+}
+
+.social-icon:nth-child(3) { /* لينكد إن */
     background: #0077B5;
 }
 
-.social-icon:nth-child(3) { /* Behance */
+.social-icon:nth-child(4) { /* Behance */
     background: #0057FF;
 }
 
-.social-icon:nth-child(4) { /* واتساب */
+.social-icon:nth-child(5) { /* واتساب */
     background: #25D366;
 }
 
-.social-icon:nth-child(5) { /* TAP */
+.social-icon:nth-child(6) { /* TAP */
     background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
 }
 
